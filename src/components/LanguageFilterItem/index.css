@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.button {
+  color: #0f172a;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  flex-shrink: 0;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 25px;
+  }
+}
+.list-items {
+  display: flex;
+  align-items: center;
+}
+.click {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+
+  border-radius: 10px;
+}
